@@ -1,4 +1,4 @@
-FROM archlinux/base
+FROM archlinux/archlinux:base
 
 RUN pacman -Sy && \
     pacman -Sy --noconfirm openssh \
